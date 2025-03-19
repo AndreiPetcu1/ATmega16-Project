@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>2253221579</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\functii.c</file>
+            <file>$PROJ_DIR$\Debug\List\functii.s90</file>
+            <file>$TOOLKIT_DIR$\src\template\cfgm16.xcl</file>
+            <file>$PROJ_DIR$\asm.s90</file>
+            <file>$PROJ_DIR$\Debug\Exe\Proiect.d90</file>
+            <file>$PROJ_DIR$\Debug\List\asm.lst</file>
+            <file>$TOOLKIT_DIR$\src\template\cfg3toim.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-3t-ec_mul-sf-n.r90</file>
+            <file>$PROJ_DIR$\Debug\List\Proiect.html</file>
+            <file>$PROJ_DIR$\Debug\Obj\functii.r90</file>
+            <file>$PROJ_DIR$\Debug\List\functii.lst</file>
+            <file>$PROJ_DIR$\Debug\Obj\asm.r90</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 4 8</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\functii.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 1 10 9</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\asm.s90</name>
+            <outputs>
+                <tool>
+                    <name>AAVR</name>
+                    <file> 11 5</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\Proiect.d90</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 8</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 2 6 11 9 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

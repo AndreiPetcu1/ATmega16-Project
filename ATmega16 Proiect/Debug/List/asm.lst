@@ -1,0 +1,64 @@
+###############################################################################
+#                                                                             #
+#     IAR Assembler V8.10.2.1803/W64 for Microchip AVR 11/Jan/2025  20:04:25  #
+#     Copyright 2023 IAR Systems AB.                                          #
+#                                                                             #
+#           Target option =  Relative jumps do not wrap                       #
+#           Source file   =  C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\asm.s90#
+#           List file     =  C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\Debug\List\asm.lst#
+#           Object file   =  C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\Debug\Obj\asm.r90#
+#           Command line  =  -f                                               #
+#                            C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\Debug\Obj\asm.r90.rsp #
+#                            (C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\asm.s90 #
+#                            -v3                                              #
+#                            -OC:\Users\ASUS\OneDrive\Desktop\SOC Proiect\Debug\Obj\\ #
+#                            -s+ -w+ -r -M<>                                  #
+#                            -LC:\Users\ASUS\OneDrive\Desktop\SOC Proiect\Debug\List\\ #
+#                            -cAOM -i -B -t8 -u_enhancedCore                  #
+#                            -D__HAS_ENHANCED_CORE__=1 -D__HAS_MUL__=1        #
+#                            -D__MEMORY_MODEL__=1 -D__ATmega16__=1)           #
+#                                                                             #
+###############################################################################
+
+      1    00000000              NAME    main
+      2    00000000              PUBLIC  main
+      3    00000000              EXTERN  par, calc
+      4    00000000              ORG $0        ; Începutul programului
+      5    00000000              
+      6    00000000 ....           RJMP    main    ; Sari la functia main
+      7    00000000                RSEG    CODE
+      8    00000000              
+      9    00000000              main:                  ; Functia principala
+                                  main
+     10    00000000 E002             LDI     R16, 2        ; Parametrul a =
+                                                            2
+     11    00000002 E018             LDI     R17, 8        ; Parametrul b =
+                                                            8
+     12    00000004                    
+     13    00000004 ........         CALL    calc          ; Apel functie calc:
+                                                            R16 = a +
+                                                            b
+     14    00000008 2F60             MOV     R22, R16      ; Stocheaza
+                                                            rezultatul în R22
+                                                            pentru utilizare
+                                                            ulterioara
+     15    0000000A                  
+     16    0000000A ........         CALL    par           ; Verifica daca
+                                                            rezultatul este par
+                                                            (returneaza 0 sau 1
+                                                            în R16)
+     17    0000000E              
+     18    0000000E 0000             NOP                   ; Finalizare (nu
+                                                            face nimic)
+     19    00000010                  
+     20    00000010                  END  
+##############################
+#          CRC:1B75          #
+#        Errors:   0         #
+#        Warnings: 0         #
+#         Bytes: 18          #
+##############################
+
+
+
+

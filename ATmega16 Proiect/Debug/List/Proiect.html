@@ -1,0 +1,918 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<title>XLINK Map File for "C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\Debug\Exe\Proiect"</title>
+</head>
+<body bgcolor="#dde2a0" text=black>
+<h2> XLINK Map File for "C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\Debug\Exe\Proiect"</h2>
+<h3></h3>
+
+
+<p align=center>
+<a href="#Invocation Map">Invocation</a>
+&nbsp;&nbsp;<a href="#Program Entry">Program Entry</a>
+&nbsp;&nbsp;<a href="#Module Map">Module Map</a>
+&nbsp;&nbsp;<a href="#Segments in Address Order">Segment Map</a>
+&nbsp;&nbsp;<a href="#Memory Summary">Memory Summary</a>
+<p><hr>
+<p><a name="Invocation Map"></a><table>
+###############################################################################<br>
+#<br>
+# IAR UBROF Linker V8.10.2.1803/W64 for Microchip AVR     11/Jan/2025  20:04:25<br>
+# Copyright 2017-2023 IAR Systems AB.<br>
+#<br>
+#    Target Cpu    =  AVR<br>
+#    Map file      =<br>
+#        "C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\Debug\List\Proiect.html"<br>
+#    Output file 1 =<br>
+#        "C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\Debug\Exe\Proiect.d90"<br>
+#                  =  Format: debug<br>
+#                  =  UBROF version 12.0.0<br>
+#                  =  Using library modules for C-SPY (-rt)<br>
+#    Command line  =<br>
+#        -f "C:\Users\ASUS\OneDrive\Desktop\SOC<br>
+#        Proiect\Debug\Exe\Proiect.d90.rsp"<br>
+#        ("C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\Debug\Obj\asm.r90"<br>
+#        "C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\Debug\Obj\functii.r90"<br>
+#        --output "C:\Users\ASUS\OneDrive\Desktop\SOC<br>
+#        Proiect\Debug\Exe\Proiect.d90" -l "C:\Users\ASUS\OneDrive\Desktop\SOC<br>
+#        Proiect\Debug\List\Proiect.html" -xaemsh "-IC:\Program Files\IAR<br>
+#        Systems\Embedded Workbench 9.1\avr\lib\\" --f "C:\Program Files\IAR<br>
+#        Systems\Embedded Workbench 9.1\avr/src/template/cfgm16.xcl"<br>
+#        (-D_..X_INTVEC_SIZE=54 -D_..X_FLASH_NEND=3FFF -D_..X_FLASH_END=3FFF<br>
+#        -D_..X_SRAM_BASE=60 -D_..X_SRAM_TBASE=_..X_SRAM_BASE<br>
+#        "-D_..X_SRAM_TSIZE=(100-_..X_SRAM_BASE)" -D_..X_SRAM_END=45F<br>
+#        -D_..X_EXT_SRAM_BASE=_..X_SRAM_END -D_..X_EXT_SRAM_SIZE=0<br>
+#        -D_..X_EXT_ROM_BASE=_..X_SRAM_END -D_..X_EXT_ROM_SIZE=0<br>
+#        -D_..X_EXT_NV_BASE=_..X_SRAM_END -D_..X_EXT_NV_SIZE=0<br>
+#        -D_..X_EEPROM_END=1FF -D_..X_EEPROM_START=0) -D_..X_HEAP_SIZE=0<br>
+#        -D_..X_TINY_HEAP_SIZE=0 -D_..X_NEAR_HEAP_SIZE=0 -D_..X_FAR_HEAP_SIZE=0<br>
+#        -D_..X_HUGE_HEAP_SIZE=0 -D_..X_CSTACK_SIZE=20 -D_..X_RSTACK_SIZE=20<br>
+#        -D_..X_FLASH_CODE_END=_..X_FLASH_END --f "C:\Program Files\IAR<br>
+#        Systems\Embedded Workbench 9.1\avr/src/template/cfg3toim.xcl" (-ca90<br>
+#        -w29 "-Z(CODE)INTVEC=0-(_..X_INTVEC_SIZE-1)"<br>
+#        "-Z(CODE)TINY_F=_..X_FLASH_BASE-FF"<br>
+#        "-Z(CODE)NEAR_F=_..X_FLASH_BASE-_..X_FLASH_NEND"<br>
+#        "-Z(CODE)SWITCH=_..X_FLASH_BASE-_..X_FLASH_NEND"<br>
+#        "-Z(CODE)DIFUNCT=_..X_FLASH_BASE-_..X_FLASH_NEND"<br>
+#        "-Z(CODE)CODE=_..X_FLASH_BASE-_..X_FLASH_END"<br>
+#        "-P(CODE)FAR_F=[_..X_FLASH_BASE-_..X_FLASH_END]/10000"<br>
+#        "-Z(CODE)INITTAB=_..X_FLASH_BASE-_..X_FLASH_END"<br>
+#        "-Z(CODE)HUGE_F=_..X_FLASH_BASE-_..X_FLASH_END"<br>
+#        "-Z(CODE).iar.locale_table,.iar.locale_encoding,__iar_tls$$INIT_DATA=_..X_FLASH_BASE-_..X_FLASH_END"<br>
+#        "-Z(CODE)TINY_ID=_..X_FLASH_BASE-_..X_FLASH_END"<br>
+#        "-Z(CODE)NEAR_ID=_..X_FLASH_BASE-_..X_FLASH_END"<br>
+#        "-Z(CODE)CHECKSUM#_..X_FLASH_END"<br>
+#        "-Z(DATA)TINY_I,TINY_Z,TINY_N=_..X_SRAM_TBASE:+_..X_SRAM_TSIZE"<br>
+#        "-Z(DATA)__iar_tls$$DATA=_..X_SRAM_BASE:+_..X_SRAM_TSIZE"<br>
+#        "-Z(DATA)CSTACK+_..X_CSTACK_SIZE=_..X_SRAM_TBASE:+_..X_SRAM_TSIZE"<br>
+#        "-Z(DATA)HEAP+_..X_HEAP_SIZE=_..X_SRAM_TBASE:+_..X_SRAM_TSIZE"<br>
+#        "-Z(DATA)IOSTREAM_N#_..X_SRAM_TBASE:+_..X_SRAM_TSIZE"<br>
+#        "-Z(DATA)TINY_HEAP+_..X_TINY_HEAP_SIZE=_..X_SRAM_TBASE:+_..X_SRAM_TSIZE"<br>
+#        "-Z(DATA)RSTACK+_..X_RSTACK_SIZE=_..X_RSTACK_BASE-_..X_RSTACK_END"<br>
+#        "-Z(DATA)NEAR_I,NEAR_Z,NEAR_N=_..X_SRAM_BASE-_..X_SRAM_END"<br>
+#        "-Z(DATA)NEAR_HEAP+_..X_NEAR_HEAP_SIZE=_..X_SRAM_BASE-_..X_SRAM_END"<br>
+#        "-Z(XDATA)EEPROM_I,EEPROM_N=_..X_EEPROM_START-_..X_EEPROM_END")<br>
+#        -D_..X_FLASH_BASE=_..X_INTVEC_SIZE<br>
+#        "-h'1895'(CODE)0-(_..X_INTVEC_SIZE-1)" --global_fill<br>
+#        -D_..X_RSTACK_BASE=_..X_SRAM_BASE -D_..X_RSTACK_END=_..X_SRAM_END -rt<br>
+#        --text_out locale)<br>
+#<br>
+###############################################################################<br>
+<br>
+</table>
+
+
+
+
+
+<p><hr><p>
+<h2><a name="Program entry">Program entry</a></h2>
+
+                   There are no program entries.
+
+
+
+<p><hr><p>
+<h2><a name="Runtime model">Runtime model</a></h2>
+
+<table bgcolor="#c0c000" border=1 cellpadding=2>
+<tr>
+<th align=left valign=top><font size=3>ATTRIBUTE</font></th>
+<th align=left valign=top><font size=3>VALUE</font></th>
+</tr>
+<tr>
+<td valign=top><font size=3>__64bit_doubles</font></td>
+<td valign=top><font size=3>disabled</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>__architecture</font></td>
+<td valign=top><font size=3>*</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>__cpu</font></td>
+<td valign=top><font size=3>3</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>__cpu_name</font></td>
+<td valign=top><font size=3>ATmega16</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>__enhanced_core</font></td>
+<td valign=top><font size=3>enabled</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>__enhanced_core_mul</font></td>
+<td valign=top><font size=3>enabled</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>__has_elpm</font></td>
+<td valign=top><font size=3>false</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>__memory_model</font></td>
+<td valign=top><font size=3>1</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>__mex</font></td>
+<td valign=top><font size=3>disabled</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>__rt_version</font></td>
+<td valign=top><font size=3>3</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>__tiny_avr</font></td>
+<td valign=top><font size=3>false</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>__vtable_memory</font></td>
+<td valign=top><font size=3>__tinyflash</font></td>
+</tr>
+</table>
+
+
+<p><hr><p>
+<h2><a name="Automatic Symbol Redirections">Automatic Symbol Redirections</a></h2>
+
+                   There are no automatic symbol redirections.
+
+
+
+<p><hr><p>
+<h2><a name="Automatically Selected Libraries">Automatically Selected Libraries</a></h2>
+
+<table bgcolor="#c0c0c0" border=1 cellpadding=2>
+<tr>
+<td valign=top><font size=3><a href="#File:C:\Program Files\IAR Systems\Embedded Workbench 9.1\avr\lib\dlib\dlAVR-3t-ec_mul-sf-n.r90">C:\Program&nbsp;Files\IAR&nbsp;Systems\Embedded&nbsp;Workbench&nbsp;9.1\avr\lib\dlib\dlAVR-3t-ec_mul-sf-n.r90</font></td>
+</tr>
+</table>
+
+
+
+<p><hr><p>
+<h2><a name="Entry List">Entry List</a></h2>
+
+<table bgcolor="#c0c0c0" border=1 cellpadding=2>
+<tr>
+<th align=left valign=top><font size=3>ENTRY</font></th>
+<th align=left valign=top><font size=3>SPACE</font></th>
+<th align=left valign=top><font size=3>ADDRESS</font></th>
+<th align=left valign=top><font size=3>KIND</font></th>
+<th align=left valign=top><font size=3>TYPE</font></th>
+<th align=left valign=top><font size=3>MODULE</font></th>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_HUGE_HEAP_SIZE">_..X_HUGE_HEAP_SIZE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000000</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_FAR_HEAP_SIZE">_..X_FAR_HEAP_SIZE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000000</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_NEAR_HEAP_SIZE">_..X_NEAR_HEAP_SIZE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000000</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_TINY_HEAP_SIZE">_..X_TINY_HEAP_SIZE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000000</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_HEAP_SIZE">_..X_HEAP_SIZE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000000</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_EEPROM_START">_..X_EEPROM_START</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000000</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_EXT_NV_SIZE">_..X_EXT_NV_SIZE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000000</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_EXT_ROM_SIZE">_..X_EXT_ROM_SIZE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000000</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_EXT_SRAM_SIZE">_..X_EXT_SRAM_SIZE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000000</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_RSTACK_SIZE">_..X_RSTACK_SIZE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000020</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_CSTACK_SIZE">_..X_CSTACK_SIZE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000020</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_FLASH_BASE">_..X_FLASH_BASE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000054</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_INTVEC_SIZE">_..X_INTVEC_SIZE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000054</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#main">main</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000054</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:1">main</a>&nbsp;<a href="#FileHolder:1">[1]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_RSTACK_BASE">_..X_RSTACK_BASE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000060</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_SRAM_TBASE">_..X_SRAM_TBASE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000060</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_SRAM_BASE">_..X_SRAM_BASE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000060</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#par">par</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000064</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>Code</font></td>
+<td valign=top><font size=3><a href="#Module:2">functii</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#calc">calc</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x0000006E</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>Code</font></td>
+<td valign=top><font size=3><a href="#Module:2">functii</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_SRAM_TSIZE">_..X_SRAM_TSIZE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x000000A0</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_EEPROM_END">_..X_EEPROM_END</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x000001FF</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_RSTACK_END">_..X_RSTACK_END</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x0000045F</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_EXT_NV_BASE">_..X_EXT_NV_BASE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x0000045F</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_EXT_ROM_BASE">_..X_EXT_ROM_BASE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x0000045F</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_EXT_SRAM_BASE">_..X_EXT_SRAM_BASE</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x0000045F</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_SRAM_END">_..X_SRAM_END</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x0000045F</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_FLASH_CODE_END">_..X_FLASH_CODE_END</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00003FFF</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_FLASH_END">_..X_FLASH_END</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00003FFF</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#_..X_FLASH_NEND">_..X_FLASH_NEND</a></font></td>
+<td valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00003FFF</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:0">?ABS_ENTRY_MOD</a>&nbsp;<a href="#FileHolder:0">[0]</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#__?EECR">__?EECR</a></font></td>
+<td valign=top><font size=3>DATA</font></td>
+<td align=right valign=top><font size=3>0x0000001C</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:2">functii</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#__?EEDR">__?EEDR</a></font></td>
+<td valign=top><font size=3>DATA</font></td>
+<td align=right valign=top><font size=3>0x0000001D</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:2">functii</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#__?EEARL">__?EEARL</a></font></td>
+<td valign=top><font size=3>DATA</font></td>
+<td align=right valign=top><font size=3>0x0000001E</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:2">functii</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a href="#__?EEARH">__?EEARH</a></font></td>
+<td valign=top><font size=3>DATA</font></td>
+<td align=right valign=top><font size=3>0x0000001F</font></td>
+<td align=center valign=top><font size=3>Pub</font></td>
+<td align=center valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><a href="#Module:2">functii</a></font></td>
+</tr>
+</table>
+
+<table bgcolor="#c0c0c0" border=1 cellpadding=2>
+<tr>
+<td valign=top><font size=3><a NAME="FileHolder:0"></a>[0]&nbsp;=&nbsp;<a href="#Module:0">Command&nbsp;line&nbsp;(linker&nbsp;generated)</a></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><a NAME="FileHolder:1"></a>[1]&nbsp;=&nbsp;<a href="#File:C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\Debug\Obj\asm.r90">C:\Users\ASUS\OneDrive\Desktop\SOC&nbsp;Proiect\Debug\Obj\asm.r90</a></font></td>
+</tr>
+</table>
+
+
+<p><hr><p>
+<h2><a name="Module Map">Module Map</a></h2>
+
+<table bgcolor="#f0f0f0" border=1 cellpadding=2>
+<tr>
+<td colspan=7 valign=top><font size=3><a NAME="File:"></a><i><b><font size=+1>Linker&nbsp;generated:</font></b></i></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td colspan=6 valign=top><font size=3><i><font size=+1><a NAME="Module:0"></a>Module:&nbsp;?ABS_ENTRY_MOD</font></i></font></td>
+</tr>
+<tr>
+<td colspan=2 valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><table bgcolor="#f0f0f0" border=0 cellpadding=2>
+<tr>
+</tr>
+<tr>
+<td colspan=3 valign=top><font size=3>Absolute&nbsp;module&nbsp;symbols:</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_RSTACK_END</font></td>
+<td valign=top><font size=3>0x0000045F</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_RSTACK_BASE</font></td>
+<td valign=top><font size=3>0x00000060</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_FLASH_BASE</font></td>
+<td valign=top><font size=3>0x00000054</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_FLASH_CODE_END</font></td>
+<td valign=top><font size=3>0x00003FFF</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_RSTACK_SIZE</font></td>
+<td valign=top><font size=3>0x00000020</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_CSTACK_SIZE</font></td>
+<td valign=top><font size=3>0x00000020</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_HUGE_HEAP_SIZE</font></td>
+<td valign=top><font size=3>0x00000000</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_FAR_HEAP_SIZE</font></td>
+<td valign=top><font size=3>0x00000000</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_NEAR_HEAP_SIZE</font></td>
+<td valign=top><font size=3>0x00000000</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_TINY_HEAP_SIZE</font></td>
+<td valign=top><font size=3>0x00000000</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_HEAP_SIZE</font></td>
+<td valign=top><font size=3>0x00000000</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_EEPROM_START</font></td>
+<td valign=top><font size=3>0x00000000</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_EEPROM_END</font></td>
+<td valign=top><font size=3>0x000001FF</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_EXT_NV_SIZE</font></td>
+<td valign=top><font size=3>0x00000000</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_EXT_NV_BASE</font></td>
+<td valign=top><font size=3>0x0000045F</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_EXT_ROM_SIZE</font></td>
+<td valign=top><font size=3>0x00000000</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_EXT_ROM_BASE</font></td>
+<td valign=top><font size=3>0x0000045F</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_EXT_SRAM_SIZE</font></td>
+<td valign=top><font size=3>0x00000000</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_EXT_SRAM_BASE</font></td>
+<td valign=top><font size=3>0x0000045F</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_SRAM_END</font></td>
+<td valign=top><font size=3>0x0000045F</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_SRAM_TSIZE</font></td>
+<td valign=top><font size=3>0x000000A0</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_SRAM_TBASE</font></td>
+<td valign=top><font size=3>0x00000060</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_SRAM_BASE</font></td>
+<td valign=top><font size=3>0x00000060</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_FLASH_END</font></td>
+<td valign=top><font size=3>0x00003FFF</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_FLASH_NEND</font></td>
+<td valign=top><font size=3>0x00003FFF</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3>_..X_INTVEC_SIZE</font></td>
+<td valign=top><font size=3>0x00000054</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+</table>
+&nbsp;</font></td>
+</tr>
+<tr>
+<td colspan=7 valign=top><font size=3><a NAME="File:C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\Debug\Obj\asm.r90"></a><i><b><font size=+1>File:&nbsp;C:\Users\ASUS\OneDrive\Desktop\SOC&nbsp;Proiect\Debug\Obj\asm.r90</font></b></i></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td colspan=6 valign=top><font size=3><i><font size=+1><a NAME="Module:1"></a>Module:&nbsp;main</font></i></font></td>
+</tr>
+<tr>
+<td colspan=2 valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><table bgcolor="#f0f0f0" border=0 cellpadding=2>
+<tr>
+<td colspan=5 valign=top><font size=3><i><a NAME="Module:1:Part:0"></a>&nbsp;Segment&nbsp;part&nbsp;0</i>,&nbsp;<tt><font size=+1>CODE</font></tt>&nbsp;[root]</font></td>
+</tr>
+<tr>
+<td colspan=4 valign=top><font size=3>&nbsp;<i>Address:&nbsp;</i>CODE&nbsp;0x00000054<i>&nbsp;Size:&nbsp;</i>0x10<i>&nbsp;Align:&nbsp;</i>2(1)</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3><i>&nbsp;Ref&nbsp;by:&nbsp;</i></font></td>
+<td valign=top><font size=3>Absolute&nbsp;parts<br></font></td>
+</tr>
+</table>
+<table bgcolor="#f0f0f0" border=0 cellpadding=2>
+<tr>
+<td valign=top><font size=3><a NAME="main"></a><tt>main</tt></font></td>
+<td valign=top><font size=3>0x00000054</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+</table>
+&nbsp;</font></td>
+</tr>
+<tr>
+<td colspan=2 valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><table bgcolor="#f0f0f0" border=0 cellpadding=2>
+<tr>
+<td valign=top><font size=3>Absolute&nbsp;code:</font></td>
+</tr>
+<tr>
+<th align=left valign=top><font size=3>Address</font></th>
+<th align=left valign=top><font size=3>Size</font></th>
+</tr>
+<tr>
+<td valign=top><font size=3>0x00000000</font></td>
+<td valign=top><font size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x2</font></td>
+</tr>
+</table>
+&nbsp;</font></td>
+</tr>
+<tr>
+<td colspan=7 valign=top><font size=3><a NAME="File:C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\Debug\Obj\functii.r90"></a><i><b><font size=+1>File:&nbsp;C:\Users\ASUS\OneDrive\Desktop\SOC&nbsp;Proiect\Debug\Obj\functii.r90</font></b></i></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td colspan=6 valign=top><font size=3><i><font size=+1><a NAME="Module:2"></a>Module:&nbsp;functii</font></i></font></td>
+</tr>
+<tr>
+<td colspan=2 valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><table bgcolor="#f0f0f0" border=0 cellpadding=2>
+<tr>
+<td colspan=5 valign=top><font size=3><i><a NAME="Module:2:Part:7"></a>&nbsp;Segment&nbsp;part&nbsp;7</i>,&nbsp;<tt><font size=+1>CODE</font></tt></font></td>
+</tr>
+<tr>
+<td colspan=4 valign=top><font size=3>&nbsp;<i>Address:&nbsp;</i>CODE&nbsp;0x00000064<i>&nbsp;Size:&nbsp;</i>0xA<i>&nbsp;Align:&nbsp;</i>2(1)</font></td>
+</tr>
+</table>
+<table bgcolor="#f0f0f0" border=0 cellpadding=2>
+<tr>
+<td valign=top><font size=3><a NAME="par"></a><tt>par</tt></font></td>
+<td valign=top><font size=3>0x00000064</font></td>
+<td valign=top><font size=3>Pub</font></td>
+<td valign=top><font size=3><i>Ref&nbsp;by:&nbsp;</i></font></td>
+<td valign=top><font size=3><a href="#main">main</a>&nbsp;(<a href="#Module:1">main</a>)<br></font></td>
+</tr>
+</table>
+&nbsp;</font></td>
+</tr>
+<tr>
+<td colspan=2 valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><table bgcolor="#f0f0f0" border=0 cellpadding=2>
+<tr>
+<td colspan=5 valign=top><font size=3><i><a NAME="Module:2:Part:8"></a>&nbsp;Segment&nbsp;part&nbsp;8</i>,&nbsp;<tt><font size=+1>CODE</font></tt></font></td>
+</tr>
+<tr>
+<td colspan=4 valign=top><font size=3>&nbsp;<i>Address:&nbsp;</i>CODE&nbsp;0x0000006E<i>&nbsp;Size:&nbsp;</i>0x6<i>&nbsp;Align:&nbsp;</i>2(1)</font></td>
+</tr>
+</table>
+<table bgcolor="#f0f0f0" border=0 cellpadding=2>
+<tr>
+<td valign=top><font size=3><a NAME="calc"></a><tt>calc</tt></font></td>
+<td valign=top><font size=3>0x0000006E</font></td>
+<td valign=top><font size=3>Pub</font></td>
+<td valign=top><font size=3><i>Ref&nbsp;by:&nbsp;</i></font></td>
+<td valign=top><font size=3><a href="#main">main</a>&nbsp;(<a href="#Module:1">main</a>)<br></font></td>
+</tr>
+</table>
+&nbsp;</font></td>
+</tr>
+<tr>
+<td colspan=2 valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><table bgcolor="#f0f0f0" border=0 cellpadding=2>
+<tr>
+<td colspan=5 valign=top><font size=3><i><a NAME="Module:2:Part:1"></a>&nbsp;Segment&nbsp;part&nbsp;1</i>,&nbsp;<tt><font size=+1>ABSOLUTE</font></tt>&nbsp;[root]</font></td>
+</tr>
+<tr>
+<td colspan=4 valign=top><font size=3>&nbsp;<i>Address:&nbsp;</i>DATA&nbsp;0x0000001C<i>&nbsp;Size:&nbsp;</i>0x0<i>&nbsp;Align:&nbsp;</i>1(0)</font></td>
+</tr>
+</table>
+<table bgcolor="#f0f0f0" border=0 cellpadding=2>
+<tr>
+<td valign=top><font size=3><a NAME="__?EECR"></a><tt>__?EECR</tt></font></td>
+<td valign=top><font size=3>0x0000001C</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+</table>
+&nbsp;</font></td>
+</tr>
+<tr>
+<td colspan=2 valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><table bgcolor="#f0f0f0" border=0 cellpadding=2>
+<tr>
+<td colspan=5 valign=top><font size=3><i><a NAME="Module:2:Part:2"></a>&nbsp;Segment&nbsp;part&nbsp;2</i>,&nbsp;<tt><font size=+1>ABSOLUTE</font></tt>&nbsp;[root]</font></td>
+</tr>
+<tr>
+<td colspan=4 valign=top><font size=3>&nbsp;<i>Address:&nbsp;</i>DATA&nbsp;0x0000001D<i>&nbsp;Size:&nbsp;</i>0x0<i>&nbsp;Align:&nbsp;</i>1(0)</font></td>
+</tr>
+</table>
+<table bgcolor="#f0f0f0" border=0 cellpadding=2>
+<tr>
+<td valign=top><font size=3><a NAME="__?EEDR"></a><tt>__?EEDR</tt></font></td>
+<td valign=top><font size=3>0x0000001D</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+</table>
+&nbsp;</font></td>
+</tr>
+<tr>
+<td colspan=2 valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><table bgcolor="#f0f0f0" border=0 cellpadding=2>
+<tr>
+<td colspan=5 valign=top><font size=3><i><a NAME="Module:2:Part:3"></a>&nbsp;Segment&nbsp;part&nbsp;3</i>,&nbsp;<tt><font size=+1>ABSOLUTE</font></tt>&nbsp;[root]</font></td>
+</tr>
+<tr>
+<td colspan=4 valign=top><font size=3>&nbsp;<i>Address:&nbsp;</i>DATA&nbsp;0x0000001E<i>&nbsp;Size:&nbsp;</i>0x0<i>&nbsp;Align:&nbsp;</i>1(0)</font></td>
+</tr>
+</table>
+<table bgcolor="#f0f0f0" border=0 cellpadding=2>
+<tr>
+<td valign=top><font size=3><a NAME="__?EEARL"></a><tt>__?EEARL</tt></font></td>
+<td valign=top><font size=3>0x0000001E</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+</table>
+&nbsp;</font></td>
+</tr>
+<tr>
+<td colspan=2 valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><table bgcolor="#f0f0f0" border=0 cellpadding=2>
+<tr>
+<td colspan=5 valign=top><font size=3><i><a NAME="Module:2:Part:4"></a>&nbsp;Segment&nbsp;part&nbsp;4</i>,&nbsp;<tt><font size=+1>ABSOLUTE</font></tt>&nbsp;[root]</font></td>
+</tr>
+<tr>
+<td colspan=4 valign=top><font size=3>&nbsp;<i>Address:&nbsp;</i>DATA&nbsp;0x0000001F<i>&nbsp;Size:&nbsp;</i>0x0<i>&nbsp;Align:&nbsp;</i>1(0)</font></td>
+</tr>
+</table>
+<table bgcolor="#f0f0f0" border=0 cellpadding=2>
+<tr>
+<td valign=top><font size=3><a NAME="__?EEARH"></a><tt>__?EEARH</tt></font></td>
+<td valign=top><font size=3>0x0000001F</font></td>
+<td valign=top><font size=3>Pub</font></td>
+</tr>
+</table>
+&nbsp;</font></td>
+</tr>
+<tr>
+<td colspan=7 valign=top><font size=3><a NAME="File:C:\Program Files\IAR Systems\Embedded Workbench 9.1\avr\lib\dlib\dlAVR-3t-ec_mul-sf-n.r90"></a><i><b><font size=+1>File:&nbsp;C:\Program&nbsp;Files\IAR&nbsp;Systems\Embedded&nbsp;Workbench&nbsp;9.1\avr\lib\dlib\dlAVR-3t-ec_mul-sf-n.r90</font></b></i></font></td>
+</tr>
+<tr>
+<td colspan=7 valign=top><font size=3><a NAME="File:"></a><i><b><font size=+1>Linker&nbsp;generated:</font></b></i></font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td colspan=6 valign=top><font size=3><i><font size=+1><a NAME="Module:803"></a>Module:&nbsp;?FILLER_BYTES</font></i></font></td>
+</tr>
+<tr>
+<td colspan=2 valign=top><font size=3>&nbsp;</font></td>
+<td valign=top><font size=3><table bgcolor="#f0f0f0" border=0 cellpadding=2>
+<tr>
+<td colspan=5 valign=top><font size=3><i><a NAME="Module:803:Part:0"></a>&nbsp;Segment&nbsp;part&nbsp;0</i>,&nbsp;<tt><font size=+1>?FILL1</font></tt></font></td>
+</tr>
+<tr>
+<td colspan=4 valign=top><font size=3>&nbsp;<i>Address:&nbsp;</i>CODE&nbsp;0x00000002<i>&nbsp;Size:&nbsp;</i>0x52<i>&nbsp;Align:&nbsp;</i>1(0)</font></td>
+</tr>
+</table>
+&nbsp;</font></td>
+</tr>
+</table>
+
+
+<p><hr><p>
+<h2><a name="Segments in Address Order">Segments in Address Order</a></h2>
+
+<table bgcolor="#c0c000" border=1 cellpadding=2>
+<tr>
+<th align=left valign=top><font size=3>SEGMENT</font></th>
+<th valign=top><font size=3>SPACE</font></th>
+<th valign=top><font size=3>&nbsp;&nbsp;START/END&nbsp;ADDRESS&nbsp;&nbsp;</font></th>
+<th align=right valign=top><font size=3>SIZE</font></th>
+<th valign=top><font size=3>TYPE</font></th>
+<th valign=top><font size=3>ALIGN</font></th>
+</tr>
+<tr>
+<td valign=top><font size=3>?FILL1</font></td>
+<td align=center valign=top><font size=3>CODE</font></td>
+<td align=center valign=top><font size=3>0x00000002&nbsp;-&nbsp;0x00000053</font></td>
+<td align=right valign=top><font size=3>0x52</font></td>
+<td align=right valign=top><font size=3>rel</font></td>
+<td align=right valign=top><font size=3>1(0)</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>CODE</font></td>
+<td align=center valign=top><font size=3>CODE</font></td>
+<td align=center valign=top><font size=3>0x00000054&nbsp;-&nbsp;0x00000073</font></td>
+<td align=right valign=top><font size=3>0x20</font></td>
+<td align=right valign=top><font size=3>rel</font></td>
+<td align=right valign=top><font size=3>2(1)</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>ABSOLUTE</font></td>
+<td align=center valign=top><font size=3>DATA</font></td>
+<td align=center valign=top><font size=3>0x0000001C</font></td>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td align=right valign=top><font size=3>abs</font></td>
+<td align=right valign=top><font size=3>1(0)</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td align=center valign=top><font size=3>DATA</font></td>
+<td align=center valign=top><font size=3>0x0000001D</font></td>
+<td valign=top><font size=3>&nbsp;</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td align=center valign=top><font size=3>DATA</font></td>
+<td align=center valign=top><font size=3>0x0000001E</font></td>
+<td valign=top><font size=3>&nbsp;</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td align=center valign=top><font size=3>DATA</font></td>
+<td align=center valign=top><font size=3>0x0000001F</font></td>
+<td valign=top><font size=3>&nbsp;</font></td>
+</tr>
+<tr>
+<td valign=top><font size=3>&nbsp;</font></td>
+<td align=center valign=top><font size=3>CODE</font></td>
+<td align=right valign=top><font size=3>0x00000000</font></td>
+<td align=right valign=top><font size=3>0x00000001</font></td>
+<td align=right valign=top><font size=3>0x2</font></td>
+<td align=right valign=top><font size=3>aseg</font></td>
+</tr>
+</table>
+<hr>
+
+<p><a name="Memory Summary"></a><table>
+
+<table >
+<tr>
+<td align=right valign=top>32</td>
+<td valign=top>bytes</td>
+<td valign=top>of</td>
+<td valign=top>CODE</td>
+<td valign=top>memory</td>
+<td valign=top>(+</td>
+<td align=right valign=top>2</td>
+<td valign=top>absolute,</td>
+<td align=right valign=top>82</td>
+<td valign=top>range&nbsp;fill</td>
+<td valign=top>)</td>
+</tr>
+</table>
+<br>Errors: none<br>Warnings: none<br>

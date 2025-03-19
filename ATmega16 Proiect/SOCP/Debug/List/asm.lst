@@ -1,0 +1,60 @@
+###############################################################################
+#                                                                             #
+#     IAR Assembler V8.10.2.1803/W64 for Microchip AVR 03/Jan/2025  14:17:23  #
+#     Copyright 2023 IAR Systems AB.                                          #
+#                                                                             #
+#           Target option =  Relative jumps do not wrap                       #
+#           Source file   =  C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\SOCP\asm.s90#
+#           List file     =  C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\SOCP\Debug\List\asm.lst#
+#           Object file   =  C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\SOCP\Debug\Obj\asm.r90#
+#           Command line  =  -f                                               #
+#                            C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\SOCP\Debug\Obj\asm.r90.rsp #
+#                            (C:\Users\ASUS\OneDrive\Desktop\SOC Proiect\SOCP\asm.s90 #
+#                            -v3                                              #
+#                            -OC:\Users\ASUS\OneDrive\Desktop\SOC Proiect\SOCP\Debug\Obj\\ #
+#                            -s+ -w+ -r -M<>                                  #
+#                            -LC:\Users\ASUS\OneDrive\Desktop\SOC Proiect\SOCP\Debug\List\\ #
+#                            -cAOM -i -B -t8 -u_enhancedCore                  #
+#                            -D__HAS_ENHANCED_CORE__=1 -D__HAS_MUL__=1        #
+#                            -IC:\Program Files\IAR Systems\Embedded Workbench 9.1\avr\INC\\ #
+#                            -D__MEMORY_MODEL__=2 -D__ATmega16__=1)           #
+#                                                                             #
+###############################################################################
+
+      1    00000000                      NAME    main
+      2    00000000                      
+      3    00000000                      PUBLIC  main
+      4    00000000                      EXTERN  par,calc
+      5    00000000                      
+      6    00000000                      ORG $0 // PAGINA 57 DE COMPLETAT CU
+  EXPLICATII
+      7    00000000 ....                 RJMP    main
+      8    00000002                      
+      9    00000000                      RSEG    CODE // PAGINA 58 DE COMPLETAT
+                                  CU EXPLICATII
+     10    00000000              main    
+     11    00000000                      //LDI     R16, 5              
+                                  
+     12    00000000                      //CALL    par
+     13    00000000                      //MOV     R23,R16
+     14    00000000                      
+     15    00000000 E002                 LDI     R16, 2
+     16    00000002 E018                 LDI     R17, 8
+     17    00000004 5F0F                 subi R16,255
+     18    00000006                      
+     19    00000006 ........             CALL    calc
+     20    0000000A 2F60                 MOV     R22,R16
+     21    0000000C                      
+     22    0000000C 0000                 NOP
+     23    0000000E              
+     24    0000000E                      END     main
+##############################
+#          CRC:3EEA          #
+#        Errors:   0         #
+#        Warnings: 0         #
+#         Bytes: 16          #
+##############################
+
+
+
+

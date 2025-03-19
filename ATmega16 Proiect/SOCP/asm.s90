@@ -1,0 +1,24 @@
+        NAME    main
+        
+        PUBLIC  main
+        EXTERN  par,calc
+        
+        ORG $0 // PAGINA 57 DE COMPLETAT CU EXPLICATII
+        RJMP    main
+        
+        RSEG    CODE // PAGINA 58 DE COMPLETAT CU EXPLICATII
+main    
+        //LDI     R16, 5               
+        //CALL    par
+        //MOV     R23,R16
+        
+        LDI     R16, 2
+        LDI     R17, 8
+        subi R16,255
+        
+        CALL    calc
+        MOV     R22,R16
+        
+        NOP
+
+        END     main

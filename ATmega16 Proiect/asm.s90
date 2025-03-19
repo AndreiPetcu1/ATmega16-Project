@@ -1,0 +1,20 @@
+NAME    main
+PUBLIC  main
+EXTERN  par, calc
+ORG $0        ; Începutul programului
+
+  RJMP    main    ; Sari la functia main
+  RSEG    CODE
+
+main:                  ; Functia principala main
+    LDI     R16, 2        ; Parametrul a = 2
+    LDI     R17, 8        ; Parametrul b = 8
+      
+    CALL    calc          ; Apel functie calc: R16 = a + b
+    MOV     R22, R16      ; Stocheaza rezultatul în R22 pentru utilizare ulterioara
+    
+    CALL    par           ; Verifica daca rezultatul este par (returneaza 0 sau 1 în R16)
+
+    NOP                   ; Finalizare (nu face nimic)
+    
+    END  
